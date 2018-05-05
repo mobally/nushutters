@@ -24,10 +24,10 @@ define('FS_METHOD','direct');
 define('DB_NAME', 'nushutter');
 
 /** MySQL database username */
-define('DB_USER', '_nushutter');
+define('DB_USER', 'razorbee');
 
 /** MySQL database password */
-define('DB_PASSWORD', '_nushutter123');
+define('DB_PASSWORD', 'razorbee123');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');

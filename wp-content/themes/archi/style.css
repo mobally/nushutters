@@ -6784,3 +6784,150 @@ header.smaller:not(.header-bottom):not(.side-header) {
   height: 450px;
   padding: 50px 50px 28px 50px;
 }
+/***************************MOBILE*********************************/
+@media only screen and (max-width:480px)
+{
+header div#logo a img {
+    max-width: 340px;
+    max-height: 80px;
+    margin-top: -10px;
+}
+#abtusid2
+{
+  width: auto;
+}
+ul.process-circle-textonly {
+    margin-left: 100px !important;
+    height: auto;
+}
+#abtusid {
+    padding: 0 5px 40px 5px;
+}
+ul.process-circle-textonly li:nth-child(even) span {
+    margin-top: -80px;
+    position: relative;
+    background: #b8860b !important;
+}
+ul.process-circle-textonly li {
+    width: auto;
+}
+.de_tab.tab_steps .de_tab_content {
+    margin-top: 40px !important;
+    padding: 10px 15px 0 15px !important;
+}
+#cid1, #cid2, #cid3
+{
+  margin-bottom: 30px;
+}
+#test .col-lg-12 {
+    overflow: hidden;
+    padding: 0px;
+    height: auto;
+    margin-bottom: 25px;
+}
+#test img {
+    width: 100%;
+    height: auto;
+    transition: all 0.9s ease-in-out;
+}
+#test .overlay {
+    height: auto;
+}
+#test .text {
+top:45%;
+}
+#test .text h1 {
+    font-size: 20px;
+    color: white;
+}
+#abouttid .image-container {
+    width: 100%;
+    height: 250px !important;
+}
+#horid .image-container {
+    width: 100%;
+}
+#m2id .vc_column-inner {
+    width: auto;
+    position: relative;
+    right: 0;
+    padding-bottom: 23px;
+}
+#pricing .inner-padding {
+    padding: 20px 0 90px 0;
+}
+#pricing h2.style-2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 900;
+    color: #ff5722;
+}
+#intdat1 {
+    text-align: justify;
+    padding: 50px 20px 50px 20px;
+    color: #333333;
+    font-size: 14px;
+}
+#limgid .vc_column-inner {
+    height: 250px;
+    width: 100%;
+}
+#limdtid {
+    text-align: justify;
+    padding: 50px 20px 25px 20px;
+    color: #333333;
+    font-size: 14px;
+}
+#erimg1 .vc_column-inner {
+    height: 250px;
+    width: 100%;
+    position: relative;
+    right: 0;
+}
+#intimg1 .vc_column-inner {
+    height: 250px;
+    width: 100%;
+    position: relative;
+    right: 0;
+}
+#erdat1 {
+    text-align: justify;
+    padding: 50px 20px 50px 20px;
+    color: #333333;
+    font-size: 14px;
+}
+#alimgid .vc_column-inner {
+    height: 250px;
+    width: 100%;
+}
+#alimdtid {
+    text-align: justify;
+    padding: 40px 20px 25px 20px;
+    color: #333333;
+    font-size: 14px;
+}
+#features .separator {
+    line-height: 0.5;
+    text-align: center;
+    margin: 30px 0 0px 0;
+}
+#features .spacer-single {
+display: none;
+}
+.vc_custom_1525515159579
+{
+  margin-bottom: 30px;
+}
+#pdat .vc_column-inner {
+    height: 100%;
+    padding: 50px 50px 28px 50px;
+}
+#pdimg .vc_column-inner {
+    height: 250px;
+}
+.big-text {
+    font-size: 14px !important;
+    letter-spacing: 5px !important;
+}
+}
