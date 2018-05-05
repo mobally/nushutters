@@ -871,13 +871,5 @@ jQuery(document).ready(function() {
 
 jQuery(document).ready(function(){
  $=jQuery;
- if($(window).width()<720)
- {
- var temp=$('.st').width();
- $('#test img').css({'width':temp,'height':'auto'});
-}
-else {
- var temp=$('.st').width();
- $('#test img').css('width',temp);
-}
+ $('#blog a').click(function(e){ e.preventDefault(); });
 });
