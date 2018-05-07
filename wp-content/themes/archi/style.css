@@ -6297,10 +6297,10 @@ ul.sidebar-style-2 li.active a {
   font-size: 12px;
     font-weight: 600;
 }
-.tp-bgimg.defaultimg
+/*.tp-bgimg.defaultimg
 {
 box-shadow: inset 0 0 0 2027px rgba(0,0,0,.4);
-}
+}*/
 #zmid, #zmid1, #zmid2
 {
   margin-bottom: 10px;
@@ -6321,7 +6321,7 @@ box-shadow: inset 0 0 0 2027px rgba(0,0,0,.4);
 {
   border: 1px solid #f6f6f6;
   box-shadow: 0px 2px 8px rgba(130, 130, 130, 0.5);
-  /*min-height: 450px;*/
+  min-height: 450px;
 }
 div#cid1:hover img {
   transition: all 0.8s ease-in-out;
@@ -6343,10 +6343,11 @@ div#cid3:hover img {
   overflow-wrap: break-word !important;
   word-wrap: break-word !important;
 }
-#slid4 .tp-caption
+ .tp-caption
 {
   white-space: normal !important;
   opacity: 1 !important;
+  font-size: 35px !important;
 /*  visibility: visible !important;*/
 }
 #tst
@@ -6407,7 +6408,7 @@ width: 465px;
 }
 #services img
 {
-  height: 200px;
+  height: 300px;
 }
 ul.process-circle-textonly li
 {
@@ -6592,9 +6593,9 @@ right: 0;
 {
   text-align: justify;
 }
-#subheader {
+/*#subheader {
     box-shadow: inset 0 0 0 2027px rgba(0,0,0,.4);
-}
+}*/
 #abouttid .inner-padding
 {
   padding: 60px 0 60px 0;
@@ -6788,9 +6789,43 @@ header.smaller:not(.header-bottom):not(.side-header) {
 {
   display: none;
 }
+#edd h3
+{
+  color: #ffffff;
+}
+#frmct{
+    padding-left: 150px;
+}
+#blog
+{
+  display: none;
+}
+#clients
+{
+  display:none;
+}
+#aboutid
+{
+  display:none;
+}
+#aboutid2 h1
+{
+  font-weight: 600;
+}
+ul.process-circle-textonly li:nth-child(even) span
+{
+display: none !important;
+}
+.inner {
+    padding-left: 5px;
+    padding-right: 5px;
+}
 /***************************MOBILE*********************************/
 @media only screen and (max-width:480px)
 {
+  #frmct {
+    padding-left: 0px;
+}
 header div#logo a img {
     max-width: 340px;
     max-height: 80px;
@@ -6952,7 +6987,6 @@ display: none;
 }
 #mainmenu
 {
-    display: block;
     margin-top: 25px;
 }
 .tp-caption
@@ -6978,5 +7012,38 @@ display: none;
 #rdmrid {
     text-align: center;
     margin-top: -60px;
+}
+.tp-caption
+{
+line-height: 15px !important;
+text-align: center !important;
+font-size: 16px !important;
+font-weight: 600 !important;
+}
+#edd h3
+{
+  color: #ffffff !important;
+  font-size: 12px !important ;
+  text-align: center !important;
+}
+#services img {
+  height: 175px;
+}
+#cid1 .wow, #cid2 .wow, #cid3 .wow {
+    min-height: 250px;
+}
+#tst
+{
+  width: 300px;
+}
+#tst p
+{
+  font-size: 14px !important;
+  line-height: 20px !important;
+}
+#tst blockquote .de_testi_by
+{
+  font-size: 10px !important;
+  line-height: 15px !important;
 }
 }
