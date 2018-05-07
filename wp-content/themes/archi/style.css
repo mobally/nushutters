@@ -6784,6 +6784,10 @@ header.smaller:not(.header-bottom):not(.side-header) {
   height: 450px;
   padding: 50px 50px 28px 50px;
 }
+#stepshome
+{
+  display: none;
+}
 /***************************MOBILE*********************************/
 @media only screen and (max-width:480px)
 {
@@ -6822,16 +6826,16 @@ ul.process-circle-textonly li {
 #test .col-lg-12 {
     overflow: hidden;
     padding: 0px;
-    height: auto;
+    height: 250px;
     margin-bottom: 25px;
 }
 #test img {
     width: 100%;
-    height: auto;
+    height: 250px;
     transition: all 0.9s ease-in-out;
 }
 #test .overlay {
-    height: auto;
+    height: 250px;
 }
 #test .text {
 top:45%;
@@ -6929,5 +6933,50 @@ display: none;
 .big-text {
     font-size: 14px !important;
     letter-spacing: 5px !important;
+}
+#process
+{
+  display: none;
+}
+#stepshome
+{
+  display: block;
+}
+#stepshome .appmob{
+    text-align: center;
+    margin-top: 50px;
+}
+#subheader
+{
+  background-repeat: no-repeat;
+}
+#mainmenu
+{
+    display: block;
+    margin-top: 25px;
+}
+.tp-caption
+{
+  font-size: 14px !important;
+}
+#slid1 .tp-bgimg.defaultimg
+{
+  background-position: 15% 100% !important;
+}
+#slid2 .tp-bgimg.defaultimg
+{
+  background-position: 50% 100% !important;
+}
+#slid4 .tp-bgimg.defaultimg
+{
+  background-position: 50% 100% !important;
+}
+#slid5 .tp-bgimg.defaultimg
+{
+  background-position: 50% 100% !important;
+}
+#rdmrid {
+    text-align: center;
+    margin-top: -60px;
 }
 }
