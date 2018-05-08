@@ -872,4 +872,5 @@ jQuery(document).ready(function() {
 jQuery(document).ready(function(){
  $=jQuery;
  $('#blog a').click(function(e){ e.preventDefault(); });
+ $('#subheader').addClass('sheader');
 });

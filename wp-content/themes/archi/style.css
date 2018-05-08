@@ -6687,11 +6687,11 @@ header div#logo a img{
 }
 header.smaller div#logo a img{
     max-width: 250px;
-    max-height: 80px;
+    max-height: 50px;
         margin-top: 10px;
 }
 header.smaller:not(.header-bottom):not(.side-header) {
-    height: 90px;
+    height: 70px;
     background:#18191b;
     border-bottom: solid 1px #333;
 }
@@ -6819,6 +6819,108 @@ display: none !important;
 .inner {
     padding-left: 5px;
     padding-right: 5px;
+}
+.subfooter
+{
+  display: none !important;
+}
+#ktchid img
+{
+  height: 575px;
+}
+#features .box-icon-simple.right, .box-icon-simple.left {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#why2
+{
+  display: none;
+}
+.intro {
+    color: #000000;
+}
+#kitchens h2
+{
+    color: #fa3434;
+    font-weight: 600;
+    font-size: 35px;
+        margin-bottom: 0px;
+}
+#kitchens .inner-padding {
+    padding: 30px 0 30px 0;
+}
+#kitchens ul
+{
+  color: #333333;
+}
+#kitchens ul li
+{
+  margin-bottom: 10px;
+}
+#tabid thead
+{
+  background: #ffffff;
+  color: #000000;
+  font-size: 15px;
+}
+.table-responsive
+{
+    padding: 75px;
+}
+#tabid th
+{
+  padding: 15px;
+}
+#tabid td
+{
+  padding: 20px;
+  color: #333333;
+  text-align: center;
+}
+#tabid
+{
+  border-radius: 5px;
+}
+#tabid caption
+{
+    font-size: 35px;
+    color: white;
+    background: #fcb241;
+    padding: 25px;
+    text-align: center;
+    font-weight: 600;
+}
+table, th, td {
+    border: 1px solid #fcb241;
+    border-collapse: collapse;
+}
+#ktab
+{
+  background-attachment:fixed;
+}
+#tabid tbody tr:nth-child(even)
+{
+  background-color: #ffffff;
+}
+#kitchens .image-container
+{
+  background-position: 50%;
+}
+#wardrobe .inner-padding {
+    padding: 30px 0 30px 0;
+}
+#wardrobe h2
+{
+    color: #fa3434;
+    font-weight: 600;
+    font-size: 35px;
+        margin-bottom: 0px;
+}
+#wardrobe img
+{
+    width: 125px;
+    margin-left: -60px;
+    margin-top: -10px;
 }
 /***************************MOBILE*********************************/
 @media only screen and (max-width:480px)
@@ -7045,5 +7147,143 @@ font-weight: 600 !important;
 {
   font-size: 10px !important;
   line-height: 15px !important;
+}
+.has-topbar #subheader {
+    padding-top: 0px;
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat;
+    height: auto !important;
+}
+#subheader h1 {
+    color: #eceff3;
+    margin-top: 75px !important;
+}
+header.de_header_2 {
+    height: 100% !important;
+}
+header.header-bg {
+    background: rgba(0,0,0,1);
+}
+#ktchid img {
+    height: auto;
+    margin-top: 50px;
+}
+}
+/********************************Tablet**********************************/
+@media only screen and (min-width:500px) and (max-width:1024px)
+{
+  header div#logo a img {
+    max-width: 340px;
+    max-height: 65px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: 0px;
+}
+.tp-caption
+{
+line-height: 18px !important;
+text-align: center !important;
+font-size: 18px !important;
+font-weight: 600 !important;
+}
+#edd h3 {
+    color: #ffffff;
+    text-align: center !important;
+    font-size: 14px !important;
+}
+#slid1 .tp-bgimg.defaultimg
+{
+  background-position: 65% 100% !important;
+}
+#slid2 .tp-bgimg.defaultimg
+{
+  background-position: 50% 100% !important;
+}
+#slid4 .tp-bgimg.defaultimg
+{
+  background-position: 50% 100% !important;
+}
+#slid5 .tp-bgimg.defaultimg
+{
+  background-position: 55% -90px !important;
+}
+#mainmenu
+{
+    margin-top: 20px;
+}
+#tst p
+{
+  font-size: 14px !important;
+  line-height: 20px !important;
+margin: 7px 0px 16px 30px !important;
+text-align: justify !important;
+}
+#tst blockquote .de_testi_by
+{
+  font-size: 12px !important;
+  line-height: 15px !important;
+}
+#abtusid2
+{
+  width: 100%;
+}
+#process
+{
+  display: none;
+}
+#stepshome
+{
+  display: block;
+}
+#hidetab .box-number
+{
+  display: none;
+}
+.appmob
+{
+  text-align: center;
+}
+#frmct {
+    padding-left: 0;
+}
+.tabcol
+{
+    width: 250px;
+    margin-top: 60px;
+    margin-left: 5px;
+}
+#submit
+{
+  text-align: center;
+}
+.has-topbar #subheader {
+    padding-top: 0px;
+    background-position: 50% 130px !important;
+    background-repeat: no-repeat;
+    height: 235px !important;
+    background-size: contain !important;
+}
+#subheader .crumb {
+    display: block;
+    font-size: 15px;
+}
+#subheader .col-md-12 {
+    margin-top: 60px !important;
+}
+#abouttid .image-container {
+    width: 100% !important;
+}
+#horid .image-container {
+    width: 100%;
+}
+#m2id .vc_column-inner
+{
+  width: 100%;
+position: relative;
+right: 0;
+      padding-bottom: 23px;
 }
 }
