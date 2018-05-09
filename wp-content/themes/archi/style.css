@@ -6496,7 +6496,7 @@ width: 100%;
  -webkit-transform:scale(0);
  transform: scale(0);
  transition: .5s ease;
-background-color: rgba(0,0,0,0.2);
+background-color: transparent;
 }
 
 #test .col-lg-12:hover .overlay {
@@ -6518,6 +6518,9 @@ background-color: rgba(0,0,0,0.2);
 {
   font-size: 50px;
   color: white;
+  background: rgba(0,0,0,0.5);
+  padding: 0 5px 0 5px;
+  border-radius: 5px;
 }
 #team
 {
@@ -6812,18 +6815,18 @@ header.smaller:not(.header-bottom):not(.side-header) {
 {
   font-weight: 600;
 }
-ul.process-circle-textonly li:nth-child(even) span
+/*ul.process-circle-textonly li:nth-child(even) span
 {
 display: none !important;
-}
+}*/
 .inner {
     padding-left: 5px;
     padding-right: 5px;
 }
-.subfooter
+/*.subfooter
 {
   display: none !important;
-}
+}*/
 #ktchid img
 {
   height: 575px;
@@ -6914,17 +6917,176 @@ table, th, td {
     color: #fa3434;
     font-weight: 600;
     font-size: 35px;
-        margin-bottom: 0px;
+        margin-bottom: 35px;
 }
 #wardrobe img
 {
-    width: 125px;
-    margin-left: -60px;
-    margin-top: -10px;
+  width: 125px;
+  margin-left: -60px;
+  margin-top: -20px;
+  height: 125px;
+  border-radius: 50%;
+}
+#wardrobe .lefft
+{
+  margin-left: 75px;
+}
+#wardrobe h3
+{
+  color: #ffffff;
+  font-weight: 600;
+}
+#wardrobe .box-icon  p
+{
+  color: #ffffff;
+  text-align: justify;
+      font-size: 14px;
+}
+#wardrobe .box-icon img
+{
+  transition: all 0.5s ease;
+}
+#wardrobe .box-icon :hover img
+{
+  transition: all 0.8s ease;
+  transform:rotate(360deg) scale(0.8);
+}
+#wardrobe .col-md-5
+{
+  text-align: justify;
+}
+#feat
+{
+  background-attachment: fixed;
+}
+#featin
+{
+    padding: 10px 100px 125px 150px;
+}
+#featin .vc_empty_space
+{
+  height: 90px;
+}
+#shutters .inner-padding {
+    padding: 30px 0 30px 0;
+}
+#prds h1
+{
+    color: #fa3434;
+    font-weight: 600;
+}
+#shutters h2
+{
+    color: #fa3434;
+    font-weight: 600;
+    font-size: 35px;
+        margin-bottom: 0px;
+}
+#shutters p
+{
+  color: #333333;
+      font-size: 14px;
+}
+#tabid img
+{
+  width: 150px;
+}
+#stab
+{
+  background-attachment: fixed;
+}
+#cmess
+{
+  padding-top: 50px;
+}
+#contact
+{
+  display: none;
+}
+#gmap
+{
+  display: none;
+}
+#gallery .item:nth-child(1) img
+{
+  transform: scale(1.2);
+}
+
+#gallery .item:nth-child(1) .project-name
+{
+  opacity: 1;
+  font-size: 20px;
+  text-shadow: 1px 1px 0px #fff, 2px 2px 0px rgba(0,0,0,0.15);
+}
+#gallery .pr_text
+{
+  color: #030303;
+}
+#gallery .project-name
+{
+  font-size: 16px;
+  text-shadow: 1px 1px 0px #fff, 2px 2px 0px rgba(0,0,0,0.15);
+}
+#gallery .item .picframe-new .mask {
+    background-color: rgba(255,255,255,0.5);
+}
+#gallery .item:nth-child(1) .mask
+{
+  opacity: 1;
+  background: rgba(255,255,255,0.3);
+}
+.social-icons ul li a {
+    display: block;
+    text-shadow: none;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 35px;
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    text-align: center;
+    color: #fff;
+    margin-right: 40px;
+}
+.social-icons ul li a:hover {
+    background: #fab333;
+    border-color: #fff;
+    width: 55px;
+    height: 45px;
+    padding: 5px;
 }
 /***************************MOBILE*********************************/
 @media only screen and (max-width:480px)
 {
+  .simage img
+  {
+    width: 100%;
+  }
+  #featin {
+    padding: 10px 20px 50px 20px;
+}
+#wardrobe .lefft {
+    margin-left: 50px;
+}
+#featin .vc_empty_space {
+    height: 40px !important;
+}
+#featin .att {
+    height: 75px !important;
+}
+  #wardrobe h2 {
+    font-size: 25px;
+}
+  #wardrobe .rright
+  {
+    margin-left: 50px;
+      text-align: justify;
+  }
+#wardrobe .scr
+{
+  margin-top: 75px;
+}
   #frmct {
     padding-left: 0px;
 }
