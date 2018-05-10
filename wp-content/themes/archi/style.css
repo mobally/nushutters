@@ -7056,9 +7056,93 @@ table, th, td {
     height: 45px;
     padding: 5px;
 }
+.modal-backdrop.in
+{
+  opacity: 0 !important;
+}
+#myModal
+{
+  right: 0;
+  left: auto;
+      top: 85px;
+      z-index: 7777777777;
+}
+#myModal .modal-dialog
+{
+  width: 425px;
+}
+#myModal .modal-content
+{
+  box-shadow: none;
+  border-radius: inherit;
+      height: 560px;
+}
+#myModal .wpcf7 input[type=text], .wpcf7 input[type=tel], .wpcf7 textarea[placeholder], .wpcf7 textarea, .wpcf7 input[type=email], #search
+{
+  margin-bottom: 5px;
+}
+#myModal .wpcf7 input[type=submit] {
+    background: #fab834;
+}
+#myModal .hidden
+{
+  display: none;
+}
+.container-box
+{
+    display: inline-block;
+    padding: 10px;
+    background: rgba(255, 255, 255, .8);
+    border: 1px solid #fff;
+    position: fixed;
+    top: 55%;
+    right: -10px;
+        z-index: 6666666;
+    /* transform-origin: top left; */
+}
+.rotated
+{
+  transform-origin: top center;
+  -moz-transform: rotate(-90deg);
+-ms-transform: rotate(-90deg);
+-o-transform: rotate(-90deg);
+-webkit-transform: rotate(-90deg);
+}
 /***************************MOBILE*********************************/
 @media only screen and (max-width:480px)
 {
+  .social-icons ul li a {
+      display: block;
+      text-shadow: none;
+      width: 5px;
+      height: 5px;
+      line-height: 0px;
+      font-size: 16px;
+      border-radius: 1px;
+      -moz-border-radius: 1px;
+      -webkit-border-radius: 1px;
+      text-align: center;
+      color: #fff;
+      margin-right: 40px;
+  }
+
+  .subfooter{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+  #myModal .modal-dialog {
+    width: auto;
+}
+#myModal {
+    right: 0;
+    left: auto;
+    top: 20px;
+}
+#myModal .modal-content {
+    box-shadow: none;
+    border-radius: inherit;
+    height: auto;
+}
   .simage img
   {
     width: 100%;

@@ -868,9 +868,29 @@ jQuery(document).ready(function() {
 	});
 });
 
+/*(function () {
+	 $=jQuery;
+            var nav = $('#myModal');
+            var scrolled = false;
 
+            $(window).scroll(function () {
+
+                if (80 < $(window).scrollTop() && !scrolled) {
+                    nav.addClass('hidden');
+                    scrolled = true;
+                }
+
+                if (80 > $(window).scrollTop() && scrolled) {
+                    nav.removeClass('hidden')
+                    scrolled = false;
+                }
+            });
+
+    }());*/
 jQuery(document).ready(function(){
  $=jQuery;
  $('#blog a').click(function(e){ e.preventDefault(); });
  $('#subheader').addClass('sheader');
+ $("#myModal").modal('static');
+ $('.modal-backdrop').css('opacity','0');
 });
