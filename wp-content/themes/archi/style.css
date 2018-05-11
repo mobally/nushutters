@@ -6574,6 +6574,7 @@ background-color: transparent;
   width: 580px;
   position: absolute;
 right: 0;
+filter: brightness(140%);
 }
 #erimg1 .vc_column-inner
 {
@@ -6581,16 +6582,19 @@ right: 0;
   width: 580px;
   position: absolute;
 right: 0;
+filter: brightness(110%);
 }
 #limgid .vc_column-inner
 {
   height: 440px;
   width: 580px;
+  filter: brightness(110%);
 }
 #alimgid .vc_column-inner
 {
   height: 730px;
   width: 580px;
+  filter: brightness(110%);
 }
 #text-2
 {
@@ -6777,6 +6781,7 @@ header.smaller:not(.header-bottom):not(.side-header) {
 #pdimg .vc_column-inner
 {
   height: 450px;
+  filter: brightness(110%);
 }
 #pdat
 {
@@ -7077,7 +7082,7 @@ table, th, td {
   border-radius: inherit;
       height: 560px;
 }
-#myModal .wpcf7 input[type=text], .wpcf7 input[type=tel], .wpcf7 textarea[placeholder], .wpcf7 textarea, .wpcf7 input[type=email], #search
+#srv .wpcf7-form-control, #search
 {
   margin-bottom: 5px;
 }
@@ -7091,12 +7096,9 @@ table, th, td {
 .container-box
 {
     display: inline-block;
-    padding: 10px;
-    background: rgba(255, 255, 255, .8);
-    border: 1px solid #fff;
     position: fixed;
     top: 55%;
-    right: -10px;
+    right: -20px;
         z-index: 6666666;
     /* transform-origin: top left; */
 }
@@ -7107,6 +7109,140 @@ table, th, td {
 -ms-transform: rotate(-90deg);
 -o-transform: rotate(-90deg);
 -webkit-transform: rotate(-90deg);
+}
+.container-box .btn-lg
+{
+  color: #fff;
+      background-color: #FF5722;
+      border-color: #F44336;
+}
+.container-box .btn-lg
+{
+  color: #fff;
+      background-color: #FF5722;
+      border-color: #F44336;
+      font-weight: 600;
+}
+.container-box .btn-lg:hover
+{
+  color: #fff;
+      background-color: red;
+      border-color: #F44336;
+      font-weight: 600;
+}
+img
+{
+  filter: brightness(140%);
+}
+.side-bg .image-container {
+    filter: brightness(140%);
+}
+#shutters .side-bg .image-container {
+    filter: brightness(110%);
+}
+#shutters img
+{
+  filter: brightness(120%);
+}
+#tabid img
+{
+  filter: brightness(120%);
+}
+#cng img
+{
+  filter: brightness(120%);
+}
+#cng1 img
+{
+  filter: brightness(120%);
+}
+#cng2 img
+{
+  filter: brightness(175%);
+}
+#cng3 img
+{
+  filter: brightness(170%);
+}
+#cng4 img
+{
+  filter: brightness(180%);
+}
+#cng5 img
+{
+  filter: brightness(150%);
+}
+#cng6 img
+{
+  filter: brightness(125%);
+}
+#cng7 img
+{
+  filter: brightness(120%);
+}
+#cng8 img
+{
+  filter: brightness(120%);
+}
+#cng9 img
+{
+  filter: brightness(130%);
+}
+#cng10 img
+{
+  filter: brightness(150%);
+}
+#cng11 img
+{
+  filter: brightness(125%);
+}
+#cng12 img
+{
+  filter: brightness(120%);
+}
+#mcd img
+{
+  filter: brightness(105%);
+}
+#mcd1 img
+{
+  filter: brightness(115%);
+}
+#mcd2 img
+{
+  filter: brightness(115%);
+}
+#mcd3 img
+{
+  filter: brightness(110%);
+}
+#mcd4 img
+{
+  filter: brightness(110%);
+}
+#mcd4 img
+{
+  filter: brightness(105%);
+}
+#mcd8 img
+{
+  filter: brightness(110%);
+}
+#mcd9 img
+{
+  filter: brightness(105%);
+}
+#gallery .item:nth-child(7) img
+{
+filter: brightness(110%);
+}
+#lt img
+{
+  filter: brightness(125%);
+}
+#lt1 img
+{
+  filter: brightness(110%);
 }
 /***************************MOBILE*********************************/
 @media only screen and (max-width:480px)
@@ -7239,6 +7375,7 @@ top:45%;
     position: relative;
     right: 0;
     padding-bottom: 23px;
+    filter: brightness(140%);
 }
 #pricing .inner-padding {
     padding: 20px 0 90px 0;
@@ -7259,6 +7396,7 @@ top:45%;
 #limgid .vc_column-inner {
     height: 250px;
     width: 100%;
+    filter: brightness(140%);
 }
 #limdtid {
     text-align: justify;
