@@ -7904,4 +7904,9 @@ display: none;
 #frmct {
     padding-left: 0px;
 }
+#test img {
+    width: 100%;
+    height: 575px;
+    transition: all 0.9s ease-in-out;
+}
 }
