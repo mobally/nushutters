@@ -7554,7 +7554,7 @@ header.header-bg {
 }
 }
 /********************************Tablet**********************************/
-@media only screen and (min-width:500px) and (max-width:1024px)
+@media only screen and (min-width:500px) and (max-width:1022px)
 {
   header div#logo a img {
     max-width: 340px;
@@ -7592,7 +7592,7 @@ font-weight: 600 !important;
 }
 #slid5 .tp-bgimg.defaultimg
 {
-  background-position: 55% -90px !important;
+  background-position: 55% 0px !important;
 }
 #mainmenu
 {
@@ -7645,10 +7645,11 @@ text-align: justify !important;
 }
 .has-topbar #subheader {
     padding-top: 0px;
-    background-position: 50% 130px !important;
+    background-position: 50% -215px !important;
     background-repeat: no-repeat;
     height: 235px !important;
-    background-size: contain !important;
+    background-size: cover !important;
+        background-attachment: initial;
 }
 #subheader .crumb {
     display: block;
@@ -7669,5 +7670,238 @@ text-align: justify !important;
 position: relative;
 right: 0;
       padding-bottom: 23px;
+}
+#services img {
+    height: 200px;
+}
+#cid1 .wow, #cid2 .wow, #cid3 .wow {
+    border: 1px solid #f6f6f6;
+    box-shadow: 0px 2px 8px rgba(130, 130, 130, 0.5);
+    min-height: 392px;
+}
+#tabv
+{
+  margin-top: 100px;
+}
+.vc_custom_1525504388565
+{
+  text-align: justify;
+}
+header.de_header_2 {
+    height: auto !important;
+    background: #333333 !important;
+}
+#steps .box-number {
+    margin-top: 30px;
+}
+#intdat1 {
+    text-align: justify;
+    padding: 50px 35px 50px 35px;
+    color: #333333;
+    font-size: 14px;
+}
+#intimg1 .vc_column-inner {
+    height: 415px;
+    width: auto;
+    position: relative;
+    right: 0;
+    filter: brightness(140%);
+}
+#limdtid {
+    text-align: justify;
+    padding: 50px 35px 25px 35px;
+    color: #333333;
+    font-size: 14px;
+}
+#limgid .vc_column-inner {
+    height: 500px;
+    width: auto;
+    filter: brightness(110%);
+}
+#erdat1 {
+    text-align: justify;
+    padding: 50px 35px 50px 35px;
+    color: #333333;
+    font-size: 14px;
+}
+#alimgid .vc_column-inner {
+    height: 515px;
+    width: auto;
+    filter: brightness(110%);
+}
+#alimdtid {
+    text-align: justify;
+    padding: 40px 35px 25px 35px;
+    color: #333333;
+    font-size: 14px;
+}
+#erimg1 .vc_column-inner {
+    height: 460px;
+    width: auto;
+    position: relative;
+    right: 0;
+    filter: brightness(110%);
+}
+#myModal .modal-content {
+    box-shadow: none;
+    border-radius: inherit;
+    height: 565px;
+}
+.container .col-md-12 {
+    margin-bottom: 0px;
+}
+#myModal {
+    right: 0;
+    left: auto;
+    top: 175px;
+    z-index: 7777777777;
+}
+#ktchid img {
+    height: 575px;
+    margin-top: 75px;
+}
+#tabinfo .table-responsive {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#featin {
+    padding: 10px 50px 125px 90px;
+}
+#shutters .image-container
+{
+  height: 500px !important;
+}
+#shutters .simage
+{
+  text-align: center;
+}
+
+.tabcls .table-responsive {
+    padding: 75px 15px 75px 15px;
+    margin-bottom: 15px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+}
+#project #gallery .item:nth-child(7)
+{
+display: none;
+}
+#project #gallery .item:nth-child(8)
+{
+display: none;
+}
+#test img {
+    width: 100%;
+    height: 475px;
+    transition: all 0.9s ease-in-out;
+}
+.ted
+{
+  margin-bottom: 0px !important;
+}
+}
+@media only screen and (min-width:1023px) and (max-width:1100px)
+{
+.de_header_2  #mainmenu
+{
+  margin-top: -50px;
+}
+.de_header_2.clone.smaller #mainmenu
+{
+  margin-top: 0px;
+}
+#abouttid .image-container {
+    width: 550px;
+}
+#horid .image-container {
+    width: 550px;
+}
+#m2id .vc_column-inner {
+    width: auto;
+    position: relative;
+    right: 0;
+    padding-bottom: 80px;
+}
+#intdat1 {
+    text-align: justify;
+    padding: 50px 15px 50px 25px;
+    color: #333333;
+    font-size: 14px;
+}
+#intimg1 .vc_column-inner {
+    height: 430px;
+    width: 536px;
+    position: absolute;
+    right: 0;
+    filter: brightness(140%);
+}
+#limdtid {
+    text-align: justify;
+    padding: 50px 30px 25px 20px;
+    color: #333333;
+    font-size: 14px;
+}
+#limgid .vc_column-inner {
+    height: 470px;
+    width: 520px;
+    filter: brightness(110%);
+}
+#intimg1 .vc_column-inner {
+    height: 425px;
+    width: 533px;
+    position: absolute;
+    right: 0;
+    filter: brightness(140%);
+}
+#erdat1 {
+    text-align: justify;
+    padding: 50px 15px 50px 25px;
+    color: #333333;
+    font-size: 14px;
+}
+#erimg1 .vc_column-inner {
+    height: 683px;
+    width: 533px;
+    position: absolute;
+    right: 0;
+    filter: brightness(110%);
+}
+#alimdtid {
+    text-align: justify;
+    padding: 40px 30px 25px 20px;
+    color: #333333;
+    font-size: 14px;
+}
+#alimgid .vc_column-inner {
+    height: 770px;
+    width: 520px;
+    filter: brightness(110%);
+}
+#shutters .simage img
+{
+  width: 350px;
+}
+.tabcls .table-responsive {
+    padding: 75px 15px 75px 15px;
+    margin-bottom: 15px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+}
+#pdat .vc_column-inner {
+    height: auto;
+    padding: 50px 50px 28px 50px;
+}
+#pdimg .vc_column-inner {
+    height: 520px;
+    filter: brightness(110%);
+}
+#frmct {
+    padding-left: 0px;
 }
 }
