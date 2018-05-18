@@ -6321,7 +6321,7 @@ box-shadow: inset 0 0 0 2027px rgba(0,0,0,.4);
 {
   border: 1px solid #f6f6f6;
   box-shadow: 0px 2px 8px rgba(130, 130, 130, 0.5);
-  min-height: 450px;
+  min-height: 720px;
 }
 div#cid1:hover img {
   transition: all 0.8s ease-in-out;
@@ -6347,7 +6347,7 @@ div#cid3:hover img {
 {
   white-space: normal !important;
   opacity: 1 !important;
-  font-size: 35px !important;
+  font-size: 30px !important;
 /*  visibility: visible !important;*/
 }
 #tst
@@ -6390,12 +6390,11 @@ div#cid3:hover img {
 }
 #abtusid2
 {
-  background: rgba(255,255,255,0.5);
-padding: 25px 0px 40px 0px;
+  background: rgba(255,255,255,0.7);
+padding: 25px 30px 40px 30px;
 font-size: 14px;
 line-height: 26px;
 text-align: justify;
-width: 465px;
 }
 #aboutid h1
 {
@@ -6437,7 +6436,7 @@ ul.process-circle-textonly li.active span
 }
 .de_tab.tab_steps .de_tab_content
 {
-  margin-top: 40px !important;
+  margin-top: -65px !important;
   padding: 10px 75px 0 75px !important;
   font-size: 15px;
   color: #ffffff;
@@ -6459,13 +6458,14 @@ header .info {
 }
 #rdmrid .svrd
 {
-  background: red;
+  background: #fab834;
 }
 #rdmrid
 {text-align: center;}
 .bsl2
 {
-  background: #d54836;
+  background: #fab834;
+      color: black !important;
 }
 #test img
 {
@@ -7016,29 +7016,9 @@ table, th, td {
 {
   transform: scale(1.2);
 }
-
-#gallery .item:nth-child(1) .project-name
-{
-  opacity: 1;
-  font-size: 20px;
-  text-shadow: 1px 1px 0px #fff, 2px 2px 0px rgba(0,0,0,0.15);
-}
-#gallery .pr_text
-{
-  color: #030303;
-}
 #gallery .project-name
 {
   font-size: 16px;
-  text-shadow: 1px 1px 0px #fff, 2px 2px 0px rgba(0,0,0,0.15);
-}
-#gallery .item .picframe-new .mask {
-    background-color: rgba(255,255,255,0.5);
-}
-#gallery .item:nth-child(1) .mask
-{
-  opacity: 1;
-  background: rgba(255,255,255,0.3);
 }
 .social-icons ul li a {
     display: block;
@@ -7110,17 +7090,12 @@ table, th, td {
 -o-transform: rotate(-90deg);
 -webkit-transform: rotate(-90deg);
 }
+
 .container-box .btn-lg
 {
   color: #fff;
-      background-color: #FF5722;
-      border-color: #F44336;
-}
-.container-box .btn-lg
-{
-  color: #fff;
-      background-color: #FF5722;
-      border-color: #F44336;
+  background-color: #fab834;
+  border-color: #c39228;
       font-weight: 600;
 }
 .container-box .btn-lg:hover
@@ -7244,9 +7219,100 @@ filter: brightness(110%);
 {
   filter: brightness(110%);
 }
+#slid2 .tp-bgimg
+{
+  filter: brightness(140%);
+}
+#slid5 .tp-bgimg
+{
+  filter: brightness(120%);
+}
+#slid4 .tp-bgimg
+{
+  filter: brightness(120%);
+}
+div#slide-3-layer-1 {
+    background: rgba(0,0,0,0.19);
+    padding: 15px 0px 0px 20px !important;
+    border-radius: 5px;
+}
+div#slide-1-layer-1 {
+    background: rgba(0,0,0,0.19);
+    padding: 15px 0px 0px 20px !important;
+    border-radius: 5px;
+}
+div#slide-5-layer-1 {
+    background: rgba(0,0,0,0.19);
+    padding: 15px 0px 0px 20px !important;
+    border-radius: 5px;
+}
+div#slide-11-layer-7 {
+    background: rgba(0,0,0,0.19);
+    padding: 15px 0px 0px 20px !important;
+    border-radius: 5px;
+}
+header.de_header_2 {
+  background: linear-gradient(to bottom,rgba(0,0,0,0.3)76%,rgba(255,255,255,0.1)100%);
+border-bottom: transparent;
+}
+header div#logo a img {
+    max-width: 340px;
+    max-height: 75px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: 15px;
+}
+#logo img.logo-static {
+    filter: none;
+}
+#logo img.logo-scroll {
+    filter: none;
+}
+#abus img {
+    width: 200px;
+    height: 200px;
+}
+#abus .owl-item
+{
+  text-align: center;
+}
+#abus p
+{
+  text-align: center;
+}
+#abus h4
+{
+  font-weight: 600;
+}
+#zmid1 img {
+    filter: brightness(115%);
+}
 /***************************MOBILE*********************************/
 @media only screen and (max-width:480px)
 {
+  div#slide-3-layer-1 {
+      background: rgba(0,0,0,0.19);
+      padding: 15px 0px 0px 20px !important;
+      border-radius: 5px;
+  }
+  div#slide-1-layer-1 {
+      background: rgba(0,0,0,0.19);
+      padding: 15px 0px 0px 20px !important;
+      border-radius: 5px;
+  }
+  div#slide-5-layer-1 {
+      background: rgba(0,0,0,0.19);
+      padding: 15px 0px 0px 20px !important;
+      border-radius: 5px;
+  }
+  div#slide-11-layer-7 {
+      background: rgba(0,0,0,0.19);
+      padding: 15px 0px 0px 20px !important;
+      border-radius: 5px;
+  }
   .social-icons ul li a {
       display: block;
       text-shadow: none;
