@@ -894,6 +894,7 @@ jQuery(document).ready(function(){
  $("#myModal").modal('static');
  $('.modal-backdrop').css('opacity','0');
  $("input[type=checkbox][name=checkbox-257]").on("change", function() {
+	  $=jQuery;
    var cc=$( "input[type=checkbox][name=checkbox-257]:checked" ).val();
 	 if(cc == "Others")
 	 {

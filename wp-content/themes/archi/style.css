@@ -59,6 +59,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /* -------------------------------------------------- */
 /* body */
 /* ================================================== */
+@font-face {
+    font-family: 'headerfont';
+    src: url('fonts/migrena.ttf') format('truetype');
+}
 html{background:#000000;}
 body {
     font-family: "Open Sans",Arial, Helvetica, sans-serif;
@@ -76,7 +80,10 @@ ul.countdown li span, ul.countdown li p, .teaser-text, .text-slider, .big-white,
     font-family:"Dosis", Arial, Helvetica, sans-serif;
 }
 h1.title strong, h1.title-3 strong{font-family:"Allura";}
-
+h1, h2, h3, h4, h5, h6
+{
+  font-family: "headerfont" !important;
+}
 /**** Start Reset CSS For WordPress ****/
 .alignnone {max-width: 100%;height: auto;}
 .wp-caption.alignnone img {max-width: 100%;height: auto;}
@@ -6321,7 +6328,7 @@ box-shadow: inset 0 0 0 2027px rgba(0,0,0,.4);
 {
   border: 1px solid #f6f6f6;
   box-shadow: 0px 2px 8px rgba(130, 130, 130, 0.5);
-  min-height: 720px;
+  min-height: 493px;
 }
 div#cid1:hover img {
   transition: all 0.8s ease-in-out;
@@ -6556,7 +6563,7 @@ background-color: transparent;
 #limdtid
 {
     text-align: justify;
-    padding: 50px 140px 25px 0px;
+    padding: 50px 110px 25px 0px;
     color: #333333;
     font-size: 14px;
 }
@@ -6564,14 +6571,14 @@ background-color: transparent;
 #alimdtid
 {
     text-align: justify;
-    padding: 40px 140px 25px 0px;
+    padding: 40px 110px 25px 0px;
     color: #333333;
     font-size: 14px;
 }
 #intimg1 .vc_column-inner
 {
-  height: 400px;
-  width: 580px;
+  height: 565px;
+    width: 620px;
   position: absolute;
 right: 0;
 filter: brightness(140%);
@@ -6579,21 +6586,21 @@ filter: brightness(140%);
 #erimg1 .vc_column-inner
 {
   height: 660px;
-  width: 580px;
+  width: 620px;
   position: absolute;
 right: 0;
 filter: brightness(110%);
 }
 #limgid .vc_column-inner
 {
-  height: 440px;
-  width: 580px;
+  height: 565px;
+  width: 620px;
   filter: brightness(110%);
 }
 #alimgid .vc_column-inner
 {
-  height: 730px;
-  width: 580px;
+  height: 746px;
+  width: 620px;
   filter: brightness(110%);
 }
 #text-2
@@ -6675,7 +6682,7 @@ filter: brightness(110%);
   width: 666px;
 position: absolute;
 right: 0;
-      padding-bottom: 23px;
+      padding-bottom: 0px;
 }
 #m1id p, #m2id p
 {
@@ -6694,13 +6701,13 @@ header div#logo a img{
 }
 header.smaller div#logo a img{
     max-width: 250px;
-    max-height: 50px;
-        margin-top: 10px;
+    max-height: 65px;
+      margin-top: 0px;
 }
 header.smaller:not(.header-bottom):not(.side-header) {
     height: 70px;
-    background:#18191b;
-    border-bottom: solid 1px #333;
+    background: #474747;
+border-bottom: solid 1px #4d4c4c;
 }
 #ensure .ed_chart_ratio i {
     background-color: #eb7f1c;
@@ -7041,35 +7048,36 @@ table, th, td {
     height: 45px;
     padding: 5px;
 }
-.modal-backdrop.in
+/*.modal-backdrop.in
 {
   opacity: 0 !important;
-}
-#myModal
+}*/
+#myModall
 {
-  right: 0;
-  left: auto;
-      top: 85px;
+  left: 0;
+      top: 15%;
       z-index: 7777777777;
+          overflow: hidden;
 }
-#myModal .modal-dialog
+#myModall .modal-dialog
 {
-  width: 425px;
+  width: 600px;
+      border-radius: 15px;
 }
-#myModal .modal-content
+#myModall .modal-content
 {
   box-shadow: none;
   border-radius: inherit;
-      height: 560px;
+      height: auto;
 }
 #srv .wpcf7-form-control, #search
 {
   margin-bottom: 5px;
 }
-#myModal .wpcf7 input[type=submit] {
+#myModall .wpcf7 input[type=submit] {
     background: #fab834;
 }
-#myModal .hidden
+#myModall .hidden
 {
   display: none;
 }
@@ -7219,17 +7227,21 @@ filter: brightness(110%);
 {
   filter: brightness(110%);
 }
-#slid2 .tp-bgimg
-{
-  filter: brightness(140%);
-}
-#slid5 .tp-bgimg
+#slid2 .tp-kbimg-wrap, img.tp-kbimg
 {
   filter: brightness(120%);
 }
-#slid4 .tp-bgimg
+#slid5 .tp-kbimg-wrap, img.tp-kbimg
 {
   filter: brightness(120%);
+}
+#slid4 .tp-kbimg-wrap, img.tp-kbimg
+{
+  filter: brightness(120%);
+}
+#slid1 .tp-kbimg-wrap, img.tp-kbimg
+{
+  filter: brightness(105%);
 }
 div#slide-3-layer-1 {
     background: rgba(0,0,0,0.19);
@@ -7256,14 +7268,14 @@ header.de_header_2 {
 border-bottom: transparent;
 }
 header div#logo a img {
-    max-width: 340px;
-    max-height: 75px;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-    margin-top: 15px;
+  max-width: 340px;
+  max-height: 85px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top: 0px;
 }
 #logo img.logo-static {
     filter: none;
@@ -7290,28 +7302,142 @@ header div#logo a img {
 #zmid1 img {
     filter: brightness(115%);
 }
+#srv span.wpcf7-not-valid-tip {
+    margin-top: 5px;
+  }
+#srv .col-md-6, .col-md-4, .col-md-8
+{
+  padding: 0px;
+}
+#srv .cl1
+{
+  padding-right: 5px;
+}
+#srv .prt
+{
+  padding-right: 5px;
+}
+
+#msg
+{
+  height: 70px;
+}
+#srv p
+{
+  margin-bottom: 5px;
+}
+#srv .app
+{
+  padding-bottom: 5px;
+}
+#srv .sbtt
+{
+  text-align: center;
+}
+#srv .ppupct .wpcf7 input[type=text]
+{
+  height: 40px;
+}
+#rev_slider_1_1 .tp-rightarrow.tparrows.zeus
+{
+  left:95% !important;
+  right: 0px !important;
+}
+#rev_slider_1_1 .tp-leftarrow.tparrows.zeus
+{
+  left:75px !important;
+}
+.abrdmr
+{
+  padding-bottom: 15px;
+}
+#myModall .modal-header
+{
+  background: #fab834;
+border-radius: 5px;
+}
+#ftimg
+{
+  filter: none;
+}
+#myModall .modal-header .close {
+    margin-top: -2px;
+    background: red;
+    opacity: 1;
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+}
+a.mPS2id-highlight {
+    color: #050505 !important;
+}
+ul.dropdown-menu li a {
+    font-weight: 600;
+}
+#wardrobe img {
+    filter: brightness(100%);
+}
 /***************************MOBILE*********************************/
 @media only screen and (max-width:480px)
 {
+  .abrdmr {
+    padding-bottom: 15px;
+}
+  div#slide-11-layer-8 {
+    margin-top: 45px !important;
+}
+  #srv .cl1 {
+    padding-right: 0px;
+}
+  div#slide-3-layer-2 {
+    margin-top: 100px !important;
+}
+  div#slide-1-layer-2 {
+    line-height: 20px !important;
+    margin-left: 10px !important;
+}
+  div#slide-5-layer-2 {
+    margin-left: -150px !important;
+    margin-top: 165px !important;
+}
+div#slide-5-layer-1 {
+    margin-left: -140px !important;
+}
+  #rev_slider_1_1 .tp-rightarrow.tparrows.zeus
+  {
+    left:100% !important;
+    right: 0px !important;
+    top: 75% !important;
+  }
+  #rev_slider_1_1 .tp-leftarrow.tparrows.zeus
+  {
+    left:0px !important;
+    top: 75% !important;
+  }
   div#slide-3-layer-1 {
-      background: rgba(0,0,0,0.19);
-      padding: 15px 0px 0px 20px !important;
-      border-radius: 5px;
+    background: none;
+  padding: 0 !important;
+  border-radius: 5px;
+  margin-top: 45px !important;
+  margin-left: -2px !important;
   }
   div#slide-1-layer-1 {
-      background: rgba(0,0,0,0.19);
-      padding: 15px 0px 0px 20px !important;
+    background: none;
+  padding: 0 !important;
       border-radius: 5px;
+          margin-top: -5px !important;
   }
   div#slide-5-layer-1 {
-      background: rgba(0,0,0,0.19);
-      padding: 15px 0px 0px 20px !important;
+    background: none;
+  padding: 0 !important;
       border-radius: 5px;
+          margin-top: 75px !important;
   }
   div#slide-11-layer-7 {
-      background: rgba(0,0,0,0.19);
-      padding: 15px 0px 0px 20px !important;
+    background: none;
+  padding: 0 !important;
       border-radius: 5px;
+          margin-top: 30px !important;
+          margin-left: -45px !important;
   }
   .social-icons ul li a {
       display: block;
@@ -7332,15 +7458,15 @@ header div#logo a img {
     padding-top: 0px !important;
     padding-bottom: 0px !important;
 }
-  #myModal .modal-dialog {
+  #myModall .modal-dialog {
     width: auto;
 }
-#myModal {
+#myModall {
     right: 0;
     left: auto;
     top: 20px;
 }
-#myModal .modal-content {
+#myModall .modal-content {
     box-shadow: none;
     border-radius: inherit;
     height: auto;
@@ -7441,7 +7567,13 @@ top:45%;
     position: relative;
     right: 0;
     padding-bottom: 23px;
-    filter: brightness(140%);
+    filter: none;
+}
+.col-lg-5.col-md-6.col-sm-6.ted {
+    margin-bottom: 0px;
+}
+.col-lg-6.col-md-6.col-sm-6.ted {
+    margin-bottom: 0px;
 }
 #pricing .inner-padding {
     padding: 20px 0 90px 0;
@@ -7577,6 +7709,12 @@ font-weight: 600 !important;
   color: #ffffff !important;
   font-size: 12px !important ;
   text-align: center !important;
+  height: 75px;
+    background: rgba(0,0,0,0.3);
+    padding-top: 10px !important;
+        width: 350px;
+        border-radius: 5px;
+        font-weight: 600 !important;
 }
 #services img {
   height: 175px;
@@ -7808,7 +7946,7 @@ header.de_header_2 {
     right: 0;
     filter: brightness(110%);
 }
-#myModal .modal-content {
+#myModall .modal-content {
     box-shadow: none;
     border-radius: inherit;
     height: 565px;
@@ -7816,7 +7954,7 @@ header.de_header_2 {
 .container .col-md-12 {
     margin-bottom: 0px;
 }
-#myModal {
+#myModall {
     right: 0;
     left: auto;
     top: 175px;
