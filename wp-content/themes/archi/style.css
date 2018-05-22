@@ -6294,7 +6294,9 @@ ul.sidebar-style-2 li.active a {
 
 
 /*************************************MY CSS***************************************/
-
+#intxt .wpb_wrapper {
+    text-align: center;
+}
 #homepage .info
 {
   display: none;
@@ -7055,7 +7057,7 @@ table, th, td {
 #myModall
 {
   left: 0;
-      top: 15%;
+      top: 10%;
       z-index: 7777777777;
           overflow: hidden;
 }
@@ -7303,7 +7305,8 @@ header div#logo a img {
     filter: brightness(115%);
 }
 #srv span.wpcf7-not-valid-tip {
-    margin-top: 5px;
+    margin-top: -5px;
+    margin-bottom: 0px;
   }
 #srv .col-md-6, .col-md-4, .col-md-8
 {
@@ -7376,9 +7379,26 @@ ul.dropdown-menu li a {
 #wardrobe img {
     filter: brightness(100%);
 }
+#hw
+{
+  padding-left: 0px;
+}
+div.wpcf7-validation-errors {
+    display: none;
+    margin-top: -5px;
+}
 /***************************MOBILE*********************************/
 @media only screen and (max-width:480px)
 {
+
+  #srv input
+  {
+    height: 40px;
+  }
+  #srv #hw input
+  {
+    height: auto;
+  }
   .abrdmr {
     padding-bottom: 15px;
 }
@@ -7465,6 +7485,7 @@ div#slide-5-layer-1 {
     right: 0;
     left: auto;
     top: 20px;
+    overflow: auto;
 }
 #myModall .modal-content {
     box-shadow: none;

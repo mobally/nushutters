@@ -10,50 +10,60 @@
 <!--<![endif]-->
 <?php global $archi_option; ?>
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119022210-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+ gtag('config', 'UA-119022210-1');
+</script>
+
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">	
-	
+	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+
     <!-- Favicons
     ================================================== -->
-    <?php archi_custom_favicon() ?>	
-	
+    <?php archi_custom_favicon() ?>
+
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?> >
-<?php 
+<?php
     if(isset($archi_option['header_layout']) and $archi_option['header_layout']!="htop_page" ){
-        get_template_part('framework/headers/header-sidenav'); 
-    }else{  
+        get_template_part('framework/headers/header-sidenav');
+    }else{
 ?>
 <div id="wrapper">
     <!-- header begin -->
-    <header class="<?php archi_header_class(); ?>"> 
-    <?php if($archi_option['topbar-allpage']!=false){ ?>        
+    <header class="<?php archi_header_class(); ?>">
+    <?php if($archi_option['topbar-allpage']!=false){ ?>
         <!-- top header begin -->
         <div class="info">
             <div class="<?php if($archi_option['header-wideboxed']!=false){echo 'container-fluid';}else{echo 'container';} ?>">
                 <div class="row">
                     <?php if($archi_option['topbar_col_left'] != 'none'){ ?>
                         <div class="col-md-<?php echo esc_attr($archi_option['topbar_col_left']); ?>">
-                            <?php echo htmlspecialchars_decode( do_shortcode( $archi_option['info_list_text'] ) ); ?>                        
-                        </div>    
+                            <?php echo htmlspecialchars_decode( do_shortcode( $archi_option['info_list_text'] ) ); ?>
+                        </div>
                     <?php } ?>
 
                     <?php if($archi_option['topbar_col_right'] != 'none'){ ?>
-                        <div class="col-md-<?php echo esc_attr($archi_option['topbar_col_right']); ?>"> 
+                        <div class="col-md-<?php echo esc_attr($archi_option['topbar_col_right']); ?>">
                             <?php if($archi_option['switch_header_social']!=false){ ?>
                                 <!-- social icons -->
                                 <ul class="social-list">
-                                    <?php if($archi_option['facebook']!=''){ ?>                                    
-                                        <li><a target="_blank" href="<?php echo esc_url($archi_option['facebook']); ?>"><i class="fa fa-facebook"></i></a></li>                                    
-                                    <?php } ?>                                
-                                    <?php if($archi_option['twitter']!=''){ ?>                                    
-                                        <li><a target="_blank" href="<?php echo esc_url($archi_option['twitter']); ?>"><i class="fa fa-twitter"></i></a></li>                                    
-                                    <?php } ?>                                
-                                    <?php if($archi_option['google']!=''){ ?>                                    
-                                        <li><a target="_blank" href="<?php echo esc_url($archi_option['google']); ?>"><i class="fa fa-google-plus"></i></a></li>                                    
+                                    <?php if($archi_option['facebook']!=''){ ?>
+                                        <li><a target="_blank" href="<?php echo esc_url($archi_option['facebook']); ?>"><i class="fa fa-facebook"></i></a></li>
+                                    <?php } ?>
+                                    <?php if($archi_option['twitter']!=''){ ?>
+                                        <li><a target="_blank" href="<?php echo esc_url($archi_option['twitter']); ?>"><i class="fa fa-twitter"></i></a></li>
+                                    <?php } ?>
+                                    <?php if($archi_option['google']!=''){ ?>
+                                        <li><a target="_blank" href="<?php echo esc_url($archi_option['google']); ?>"><i class="fa fa-google-plus"></i></a></li>
                                     <?php } ?>
                                     <?php if($archi_option['dribbble']!=''){ ?>
                                         <li><a target="_blank" href="<?php echo esc_url($archi_option['dribbble']); ?>"><i class="fa fa-dribbble"></i></a></li>
@@ -63,19 +73,19 @@
                                     <?php } ?>
                                     <?php if($archi_option['linkedin']!=''){ ?>
                                         <li><a target="_blank" href="<?php echo esc_url($archi_option['linkedin']); ?>"><i class="fa fa-linkedin"></i></a></li>
-                                    <?php } ?>                                
-                                    <?php if($archi_option['youtube']!=''){ ?>                                    
-                                        <li><a target="_blank" href="<?php echo esc_url($archi_option['youtube']); ?>"><i class="fa fa-youtube"></i></a></li>                                   
-                                    <?php } ?>  
+                                    <?php } ?>
+                                    <?php if($archi_option['youtube']!=''){ ?>
+                                        <li><a target="_blank" href="<?php echo esc_url($archi_option['youtube']); ?>"><i class="fa fa-youtube"></i></a></li>
+                                    <?php } ?>
                                     <?php if($archi_option['vimeo']!=''){ ?>
                                         <li><a target="_blank" href="<?php echo esc_url($archi_option['vimeo']); ?>"><i class="fa fa-vimeo-square"></i></a></li>
-                                    <?php } ?>                                                                                            
+                                    <?php } ?>
                                     <?php if($archi_option['skype']!=''){ ?>
                                         <li><a href="<?php echo esc_attr($archi_option['skype']); ?>"><i class="fa fa-skype"></i></a></li>
-                                    <?php } ?>                               
+                                    <?php } ?>
                                     <?php if($archi_option['instagram']!=''){ ?>
                                         <li><a target="_blank" href="<?php echo esc_url($archi_option['instagram']); ?>"><i class="fa fa-instagram"></i></a></li>
-                                    <?php } ?>  
+                                    <?php } ?>
                                     <?php if($archi_option['github']!=''){ ?>
                                         <li><a target="_blank" href="<?php echo esc_url($archi_option['github']); ?>"><i class="fa fa-github"></i></a></li>
                                     <?php } ?>
@@ -90,27 +100,27 @@
                                     <?php } ?>
                                     <?php if($archi_option['lastfm']!=''){ ?>
                                         <li><a target="_blank" href="<?php echo esc_url($archi_option['lastfm']); ?>"><i class="fa fa-lastfm"></i></a></li>
-                                    <?php } ?>  
-                                    <?php if($archi_option['rss']!=''){ ?>                                    
-                                        <li><a target="_blank" href="<?php echo esc_url($archi_option['rss']); ?>"><i class="fa fa-rss"></i></a></li>                                   
                                     <?php } ?>
-                                    <?php if($archi_option['social_extend']!=''){ 
+                                    <?php if($archi_option['rss']!=''){ ?>
+                                        <li><a target="_blank" href="<?php echo esc_url($archi_option['rss']); ?>"><i class="fa fa-rss"></i></a></li>
+                                    <?php } ?>
+                                    <?php if($archi_option['social_extend']!=''){
                                         echo htmlspecialchars_decode( do_shortcode( $archi_option['social_extend'] ) );
-                                    } ?> 
-									
+                                    } ?>
+
 									<!-- Polylang plugin: Show multi-languages flags -->
                                     <?php //pll_the_languages( array( 'show_flags' => 1,'show_names' => 0 ) ); ?>
                                 </ul>
                                 <!-- social icons close -->
                             <?php } ?>
-                            <?php if($archi_option['multi_languages_shortcode']!=''){ 
+                            <?php if($archi_option['multi_languages_shortcode']!=''){
                                 echo htmlspecialchars_decode( do_shortcode( $archi_option['multi_languages_shortcode'] ) );
                             } ?>
                         </div>
                     <?php } ?>
                 </div>
             </div>
-        </div>   
+        </div>
         <!-- top header close -->
         <?php } ?>
 
@@ -128,9 +138,9 @@
                     <span id="menu-btn"></span>
                     <!-- mainmenu begin -->
                     <nav>
-                        <?php 
-                            $menu_type_class = ''; 
-                            if($archi_option['menu_type']=='dotted'){ 
+                        <?php
+                            $menu_type_class = '';
+                            if($archi_option['menu_type']=='dotted'){
                                 $menu_type_class = '';
                             }elseif ($archi_option['menu_type']=='line') {
                                 $menu_type_class = 'class="line-separator"';
@@ -141,10 +151,10 @@
                             }elseif ($archi_option['menu_type']=='plus') {
                                 $menu_type_class = 'class="plus-separator"';
                             }elseif ($archi_option['menu_type']=='strip') {
-                                $menu_type_class = 'class="strip-separator"'; 
+                                $menu_type_class = 'class="strip-separator"';
                             }else{
                                 $menu_type_class = 'class="no-separator"';
-                            }    
+                            }
                         ?>
                         <?php
                             $primary = array(
@@ -168,7 +178,7 @@
                             if ( has_nav_menu( 'primary' ) ) {
                                 wp_nav_menu( $primary );
                             }
-                        ?>                       
+                        ?>
                     </nav>
                 </div>
                 <!-- mainmenu close -->
@@ -177,4 +187,4 @@
     </header>
     <!-- header close -->
 
-<?php } ?>    
+<?php } ?>

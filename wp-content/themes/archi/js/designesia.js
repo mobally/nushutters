@@ -889,6 +889,7 @@ jQuery(document).ready(function() {
     }());*/
 jQuery(document).ready(function(){
  $=jQuery;
+ 		  $('.app').css('display','none');
  $('#blog a').click(function(e){ e.preventDefault(); });
  $('#subheader').addClass('sheader');
  $("#myModal").modal('static');
@@ -898,12 +899,11 @@ jQuery(document).ready(function(){
    var cc=$( "input[type=checkbox][name=checkbox-257]:checked" ).val();
 	 if(cc == "Others")
 	 {
-		  $('.app').css('display','block');
+		  $('.app').css('display','none');
 		 if($('.itp').length <1)
 	 {
-
-		 $('.wpcf7-form .row .app').append('<div class="itp"><span class="wpcf7-form-control-wrap your-name"><input type="text" name="spcfy" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Please specify other source"></span> </div>');
-	 }
+$('.app').css('display','block');
+		 }
 	 else
  	{
 	}
