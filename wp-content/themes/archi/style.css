@@ -6294,6 +6294,14 @@ ul.sidebar-style-2 li.active a {
 
 
 /*************************************MY CSS***************************************/
+#mcd5 img
+{
+  filter:brightness(110%);
+}
+#mcd6 img
+{
+  filter:brightness(115%);
+}
 #intxt .wpb_wrapper {
     text-align: center;
 }
@@ -6517,17 +6525,14 @@ background-color: transparent;
   color: white;
   font-size: 20px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  bottom:2%;
+  left: 2%;
   text-align: center;
 }
 #test .text h1
 {
-  font-size: 50px;
-  color: white;
-  background: rgba(0,0,0,0.5);
+  font-size:30px;
+  color: #000000;
   padding: 0 5px 0 5px;
   border-radius: 5px;
 }
@@ -6583,7 +6588,7 @@ background-color: transparent;
     width: 620px;
   position: absolute;
 right: 0;
-filter: brightness(140%);
+  /*  filter: brightness(140%);*/
 }
 #erimg1 .vc_column-inner
 {
@@ -6591,19 +6596,19 @@ filter: brightness(140%);
   width: 620px;
   position: absolute;
 right: 0;
-filter: brightness(110%);
+  /*  filter: brightness(140%);*/
 }
 #limgid .vc_column-inner
 {
   height: 565px;
   width: 620px;
-  filter: brightness(110%);
+  /*  filter: brightness(140%);*/
 }
 #alimgid .vc_column-inner
 {
   height: 746px;
   width: 620px;
-  filter: brightness(110%);
+    /*  filter: brightness(140%);*/
 }
 #text-2
 {
@@ -6790,7 +6795,7 @@ border-bottom: solid 1px #4d4c4c;
 #pdimg .vc_column-inner
 {
   height: 450px;
-  filter: brightness(110%);
+  /*  filter: brightness(140%);*/
 }
 #pdat
 {
@@ -7115,7 +7120,7 @@ table, th, td {
       border-color: #F44336;
       font-weight: 600;
 }
-img
+/*img
 {
   filter: brightness(140%);
 }
@@ -7244,7 +7249,7 @@ filter: brightness(110%);
 #slid1 .tp-kbimg-wrap, img.tp-kbimg
 {
   filter: brightness(105%);
-}
+}*/
 div#slide-3-layer-1 {
     background: rgba(0,0,0,0.19);
     padding: 15px 0px 0px 20px !important;
@@ -7266,7 +7271,7 @@ div#slide-11-layer-7 {
     border-radius: 5px;
 }
 header.de_header_2 {
-  background: linear-gradient(to bottom,rgba(0,0,0,0.3)76%,rgba(255,255,255,0.1)100%);
+  background: linear-gradient(to bottom,rgba(0,0,0,0.3)90%,rgba(255,255,255,0.1)105%);
 border-bottom: transparent;
 }
 header div#logo a img {
@@ -7301,9 +7306,9 @@ header div#logo a img {
 {
   font-weight: 600;
 }
-#zmid1 img {
+/*#zmid1 img {
     filter: brightness(115%);
-}
+}*/
 #srv span.wpcf7-not-valid-tip {
     margin-top: -5px;
     margin-bottom: 0px;
@@ -7376,9 +7381,9 @@ a.mPS2id-highlight {
 ul.dropdown-menu li a {
     font-weight: 600;
 }
-#wardrobe img {
+/*#wardrobe img {
     filter: brightness(100%);
-}
+}*/
 #hw
 {
   padding-left: 0px;
@@ -7615,7 +7620,7 @@ top:45%;
 #limgid .vc_column-inner {
     height: 250px;
     width: 100%;
-    filter: brightness(140%);
+  /*  filter: brightness(140%);*/
 }
 #limdtid {
     text-align: justify;
@@ -7930,7 +7935,7 @@ header.de_header_2 {
     width: auto;
     position: relative;
     right: 0;
-    filter: brightness(140%);
+  /*  filter: brightness(140%);*/
 }
 #limdtid {
     text-align: justify;
@@ -7941,7 +7946,7 @@ header.de_header_2 {
 #limgid .vc_column-inner {
     height: 500px;
     width: auto;
-    filter: brightness(110%);
+    /*  filter: brightness(140%);*/
 }
 #erdat1 {
     text-align: justify;
@@ -7952,7 +7957,7 @@ header.de_header_2 {
 #alimgid .vc_column-inner {
     height: 515px;
     width: auto;
-    filter: brightness(110%);
+    /*  filter: brightness(140%);*/
 }
 #alimdtid {
     text-align: justify;
@@ -7965,7 +7970,8 @@ header.de_header_2 {
     width: auto;
     position: relative;
     right: 0;
-    filter: brightness(110%);
+      /*  filter: brightness(140%);*/
+
 }
 #myModall .modal-content {
     box-shadow: none;
@@ -8061,7 +8067,7 @@ display: none;
     width: 536px;
     position: absolute;
     right: 0;
-    filter: brightness(140%);
+      /*  filter: brightness(140%);*/
 }
 #limdtid {
     text-align: justify;
@@ -8072,14 +8078,14 @@ display: none;
 #limgid .vc_column-inner {
     height: 470px;
     width: 520px;
-    filter: brightness(110%);
+    /*  filter: brightness(140%);*/
 }
 #intimg1 .vc_column-inner {
     height: 425px;
     width: 533px;
     position: absolute;
     right: 0;
-    filter: brightness(140%);
+      /*  filter: brightness(140%);*/
 }
 #erdat1 {
     text-align: justify;
@@ -8092,7 +8098,7 @@ display: none;
     width: 533px;
     position: absolute;
     right: 0;
-    filter: brightness(110%);
+    /*  filter: brightness(140%);*/
 }
 #alimdtid {
     text-align: justify;
@@ -8103,7 +8109,7 @@ display: none;
 #alimgid .vc_column-inner {
     height: 770px;
     width: 520px;
-    filter: brightness(110%);
+      /*  filter: brightness(140%);*/
 }
 #shutters .simage img
 {
@@ -8124,7 +8130,7 @@ display: none;
 }
 #pdimg .vc_column-inner {
     height: 520px;
-    filter: brightness(110%);
+      /*  filter: brightness(140%);*/
 }
 #frmct {
     padding-left: 0px;
