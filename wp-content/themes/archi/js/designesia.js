@@ -913,4 +913,68 @@ $('.app').css('display','block');
 			$('.app').css('display','none');
 		}
   });
+	if($(window).width()<1022)
+	{
+		var l1=window.location.origin;
+		var ln1=l1.length;
+		var l2=window.location.href;
+		var ln2=l2.length;
+		var res=l2.substr(ln1+11,ln2-1);
+		if(res=="about/")
+{
+    $('#menu-item-1402 span').addClass('active'); $('#menu-item-1402 ul').css('height','auto');
+}
+else if(res=="approach/")
+{
+$('#menu-item-1349 span').addClass('active'); $('#menu-item-1349 ul').css('height','auto');
+}
+else if(res=="our-services-2/")
+{
+$('#menu-item-1350 span').addClass('active'); $('#menu-item-1350 ul').css('height','auto');
+}
+else if(res=="products/")
+{
+$('#menu-item-1351 span').addClass('active'); $('#menu-item-1351 ul').css('height','auto');
+}
+
+/*	$('#menu-btn').on('click',function() { var res=$("#menu-btn").hasClass("active"); if(res)
+{
+    $('.rotated').css('display','none');
+} else {  $('.rotated').css('display','block'); }  });*/
+$('#menu-btn').on('click',function() {
+	$=jQuery;
+var res=$("#menu-btn").hasClass("active");
+var scrolled = false;
+if(res)
+{ $('.rotated').css('display','none');
+     $(window).scroll(function () {
+
+                if (550 < $(window).scrollTop() && !scrolled) {
+                  $('.rotated').css('display','block');
+                    scrolled = true;
+                }
+
+                if (550 > $(window).scrollTop() && scrolled) {
+                   $('.rotated').css('display','none');
+                    scrolled = false;
+                }
+            });
+}
+else {
+	 $('.rotated').css('display','block');
+	 $(window).scroll(function () {
+
+ 						 if (550 < $(window).scrollTop() && !scrolled) {
+ 							 $('.rotated').css('display','block');
+ 								 scrolled = true;
+ 						 }
+
+ 						 if (550 > $(window).scrollTop() && scrolled) {
+ 								$('.rotated').css('display','block');
+ 								 scrolled = false;
+ 						 }
+ 				 });
+	 }
+});
+	}
 });
