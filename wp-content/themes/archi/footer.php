@@ -66,51 +66,88 @@
 
 <!--- End ---->
 	<!-- footer begin -->
-	<footer <?php if ( !is_active_sidebar( 'footer-area-1' ) && !is_active_sidebar( 'footer-area-2' ) && !is_active_sidebar( 'footer-area-3' ) && !is_active_sidebar( 'footer-area-4' ) ){ ?>class="no-padding"<?php } ?> >
+  <footer>
+    <div class="footer-links-web" id="myft">
+                <ul class="list-inline list-unstyled text-uppercase">
+                    <li class="text-left"><a href="http://localhost/nushutter/about/">About us</a></li>
+                    <li><a href="/press">Refer a Friend</a></li>
+                    <li><a href="/how-it-works">FAQ</a></li>
+                                            <li><a href="/careers">Warranty</a></li>
+                                        <li><a href="http://localhost/nushutter/contact">Contact US</a></li>
+                </ul>
+            </div>
 
-		<?php if ( is_active_sidebar( 'footer-area-1' ) || is_active_sidebar( 'footer-area-2' ) || is_active_sidebar( 'footer-area-3' ) || is_active_sidebar( 'footer-area-4' ) ){ ?>
-			<div class="main-footer">
-	            <div class="container">
-	                <div class="row">
-	                    <?php get_sidebar('footer');?>
-	                </div>
-	            </div>
-	        </div>
-		<?php } ?>
+    		  			<div class="main-footer">
+    	            <div class="container">
+    	                <div class="row">
 
-		<div class="subfooter <?php if(isset($archi_option['footer_layout']) and $archi_option['footer_layout']=="footer2" ){echo 'padtop80 padbottom80 footer-2';} ?>">
-			<div class="container">
-				<div class="row">
-					<?php if(isset($archi_option['footer_layout']) and $archi_option['footer_layout']=="footer2" ){ ?>
-						<div class="col-md-3">
-	                        <img src="<?php echo esc_url($archi_option['logo_footer']['url']); ?>" class="logo-small" alt=""><br>
-	                    </div>
-					<?php } ?>
-					<div class="col-md-6">
-						<?php echo htmlspecialchars_decode( do_shortcode( $archi_option['footer_text'] ) ); ?>
-					</div>
 
-					<?php if($archi_option['switch_footer_social']!=false){ ?>
-						<div class="<?php if(isset($archi_option['footer_layout']) and $archi_option['footer_layout']=='footer2' ){echo 'col-md-3';}else{echo 'col-md-12';} ?> text-center">
-							<div class="social-icons">
-								<ul>
+  <div class="col-md-12 col-xs-12">
+      <div id="text-5" class="widget widget_text">			<div class="textwidget"><div class="col-md-12">
+  <div id="text-5" class="widget widget_text">
+  <div class="textwidget">
+  <div class="col-md-8 col-sm-12 col-xs-12">
+  <div id="text-2" class="widget widget_text">
+  <div class="textwidget">
+  <div class="row">
+  <div class="col-md-12 col-sm-12 tmv col-xs-12">
+  <div class="col-md-11 col-sm-12 col-xs-12">NuSpace (earlier called Nushutter) was established in October of 2005 with the intention of creating stellar interior designs. One of our core ideologies at NuSpace is, we combine design, functionality and cutting-edge technology to give homeowners a stress-free home designing process by which they can make their home cosy, comfortable and stylish.
+</div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-10 col-xs-12" id="sbft">
+    <div class="subfooter ">
+      <div class="container">
+        <div class="row">
+                        <div class="col-md-12 text-center">
+              <div class="social-icons">
+                <ul>
                   <ul>
-										<li><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
-										<li><a target="_blank" href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-										<li><a target="_blank" href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
-										<li><a target="_blank" href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
-										<li><a target="_blank" href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/NuSpaceBangalore/"><i class="fa fa-facebook"></i></a></li>
+                    <li><a target="_blank" href=" https://twitter.com/NuSpaceinterior"><i class="fa fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/nuspace_interiors/?hl=en"><i class="fa fa-instagram"></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/company/nuspaceinteriors/"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a target="_blank" href="https://in.pinterest.com/NuSpace_Bengaluru/"><i class="fa fa-pinterest"></i></a></li>
 
-	                            </ul>
-							</div>
-						</div>
-					<?php } ?>
-				</div>
-			</div>
-		</div>
+                              </ul>
+              </ul></div>
+            </div>
+                    </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="col-lg-4">
+  <address>
 
-		<a id="back-to-top" href="#" class="show"></a>
-	</footer>
+                                  <span><strong>Phone:</strong>080-26670649</span><br>
+   <span><strong>Ashish:<br>
+  </strong>(Mob) 7619429346</span><p></p>
+  <p><span><strong>Shruthi:<br>
+  </strong>(Mob) 9945565826</span></p>
+  <p><span><strong>Email:</strong><a href="mailto:nuspacebangalore@gmail.com">nuspacebangalore@gmail.com</a></span></p>
+  </address>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  		</div></div><!-- end col-lg-3 -->
+
+
+
+
+
+
+    	                </div>
+    	            </div>
+
+
+    	        </div>
+    		<a id="back-to-top" href="#" class="show"></a>
+    	</footer>
 
 </div><!-- #wrapper -->
 

@@ -913,6 +913,10 @@ $('.app').css('display','block');
 			$('.app').css('display','none');
 		}
   });
+	if($(window).width()<768)
+	{
+		$('#myft ul').removeClass('list-inline');
+	}
 	if($(window).width()<1022)
 	{
 		var l1=window.location.origin;

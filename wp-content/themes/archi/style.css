@@ -8236,13 +8236,13 @@ article#livspace-stories div.container-fluid div#carousel-example-generic div.ca
     position: relative;
     min-height: 1px;
     float: left;
-  width: 33.33333%;
+  width: 50%;
 }
 article#livspace-stories div.container-fluid div#carousel-example-generic div.carousel-inner div.item div.stories-images div.stories-images-list div.stories-images-living-room {
     position: relative;
     min-height: 1px;
     float: left;
-  width: 50%;
+  width: 33.33333%;
 }
 article#livspace-stories div.container-fluid div#carousel-example-generic div.carousel-inner div.item div.stories-images div.stories-images-list div.stories-images-family {
     position: relative;
@@ -8309,7 +8309,128 @@ color: #333333;
 {
   color: #333333;
 }
-.stories-images-bedroom img, .stories-images-kitchen img
+.stories-images-bedroom img, .stories-images-kitchen img, .stories-images-living-room img
 {
   height: 250px !important;
+}
+.footer-links-web {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 100%;
+    padding: 60px 0 !important;
+    border-bottom: 0.5px solid #cbcbcb;
+    display: block;
+}
+.footer-links-web ul.list-inline {
+    margin-left: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-links-web ul.list-inline li:first-child {
+    padding-left: 0 !important;
+}
+.list-inline > li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#myft
+{
+  padding: 20px 335px 20px 45px !important;
+}
+#myft ul li
+{
+  font-size: 20px;
+  font-weight: 600;
+}
+#myft a
+{
+  color: #ffffff;
+}
+.main-footer .container
+{
+  width: auto;
+}
+.tmv
+{
+margin-top: 15px;
+font-size: 16px;
+color: #ffffff;
+}
+#text-2
+{
+  padding-bottom: 30px;
+}
+.subfooter
+{
+  margin-left: 100px;
+}
+address span
+{
+font-size: 18px;
+}
+#cmess
+{
+  background-attachment: fixed;
+  box-shadow: inset 0 0 0 2033px rgba(255,255,255,0.6);
+}
+.ln
+{
+  margin-bottom: 25px;
+}
+#rfr input, textarea
+{
+  border-radius: 4px;
+}
+#rfr input
+{
+  height: 36px;
+}
+#rfr textarea
+{
+  height: 50px;
+      overflow: hidden;
+        border-radius: 4px;
+}
+#rfr label
+{
+  color: #494949;
+}
+/*****************FOOTER MOBILE******************************/
+@media only screen and (max-width:480px)
+{
+  #cmess
+  {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  #myft ul li
+   {
+    padding: 0 0 28px 0;
+    text-align: center;
+}
+#myft
+{
+  padding: 30px 0px 0px 0px !important;
+}
+.tmv
+{
+  margin-top: 25px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.tmv .col-md-11
+{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+footer .widget {
+    padding-bottom: 0px;
+}
+
 }
