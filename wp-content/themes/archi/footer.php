@@ -70,9 +70,9 @@
     <div class="footer-links-web" id="myft">
                 <ul class="list-inline list-unstyled text-uppercase">
                     <li class="text-left"><a href="http://localhost/nushutter/about/">About us</a></li>
-                    <li><a href="/press">Refer a Friend</a></li>
-                    <li><a href="/how-it-works">FAQ</a></li>
-                                            <li><a href="/careers">Warranty</a></li>
+                    <li><a href="http://localhost/nushutter/refer-a-friend/">Refer a Friend</a></li>
+                    <li><a href="#">FAQ</a></li>
+                                            <li><a href="http://localhost/nushutter/warranty/">Warranty</a></li>
                                         <li><a href="http://localhost/nushutter/contact">Contact US</a></li>
                 </ul>
             </div>
