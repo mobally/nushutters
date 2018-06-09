@@ -887,8 +887,24 @@ jQuery(document).ready(function() {
             });
 
     }());*/
+
+
+		function isScrolledIntoView(elem)
+		{
+		    var docViewTop = $(window).scrollTop();
+		    var docViewBottom = docViewTop + $(window).height();
+
+		    var elemTop = $(elem).offset().top;
+		    var elemBottom = elemTop + $(elem).height();
+
+		    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+		}
+
+/*jQuery('.mfp-wrap').on('ready',function(){ debugger; alert('Hello'); });*/
 jQuery(document).ready(function(){
- $=jQuery;
+ window.$=jQuery;
+
+
  		  $('.app').css('display','none');
  $('#blog a').click(function(e){ e.preventDefault(); });
  $('#subheader').addClass('sheader');
