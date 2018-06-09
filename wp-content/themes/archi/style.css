@@ -8419,11 +8419,12 @@ font-size: 18px;
 .mvct h1
 {
   font-size: 50px !important;
-  color: white;
-  font-family:serif !important;
-  line-height: 50px !important;
-  text-shadow: -2px 0px 1px rgba(0,0,0,0.6);
-  text-align: center !important;
+      color: white;
+      font-family: serif !important;
+      line-height: 50px !important;
+      text-shadow: -4px 3px 1px rgba(0,0,0,0.6);
+      text-align: center !important;
+      font-weight: 600 !important;
 }
 #warr ol li
 {
@@ -8471,6 +8472,10 @@ font-size: 18px;
 .mb
 {
   margin-bottom: 10px;
+}
+.mvct
+{
+  background: rgba(0,0,0,0.1);
 }
 /*html {
     overflow: auto;
