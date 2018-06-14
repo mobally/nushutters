@@ -899,7 +899,23 @@ jQuery(document).ready(function() {
 
 		    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
 		}
+		jQuery(window).scroll(function () {
+			 $=jQuery;
+			var dheight=$(document).innerHeight();
+				var fheight=$('footer').innerHeight();
+					var lnkheight=$('#myft').innerHeight();
+					var res=dheight-fheight-lnkheight;
 
+							if ($(window).scrollTop()<res) {
+								$('.rotated').css('display','block');
+
+							}
+
+							else {
+								 $('.rotated').css('display','none');
+
+							}
+					});
 /*jQuery('.mfp-wrap').on('ready',function(){ debugger; alert('Hello'); });*/
 jQuery(document).ready(function(){
  window.$=jQuery;

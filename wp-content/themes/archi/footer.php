@@ -67,6 +67,7 @@
 <!--- End ---->
 	<!-- footer begin -->
   <footer>
+
     <div class="footer-links-web" id="myft">
                 <ul class="list-inline list-unstyled text-uppercase">
                     <li class="text-left"><a href="http://localhost/nushutter/about/">About us</a></li>
@@ -91,7 +92,7 @@
     <div class="subfooter ">
       <div class="container">
         <div class="row">
-                        <div class="col-md-12 text-center">
+                        <div class="col-md-12 text-center col-xs-12">
               <div class="social-icons">
                 <ul>
                   <ul>
@@ -109,7 +110,7 @@
     </div>
   </div>
   </div>
-  <div class="col-lg-4">
+  <div class="col-lg-4 col-xs-12">
   <address>
 
                                   <span><strong>Phone:</strong>080-26670649</span><br>

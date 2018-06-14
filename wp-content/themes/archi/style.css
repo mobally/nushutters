@@ -8866,7 +8866,7 @@ padding-bottom: 20px !important;
 .social-icons ul li a {
     display: block;
     text-shadow: none;
-    width: 20px;
+    width: 10px;
     height: 5px;
     line-height: 0px;
     font-size: 35px;
@@ -8879,5 +8879,20 @@ padding-bottom: 20px !important;
 }
 #npt .ovl {
     background-color: rgba(0,0,0,0.4) !important;
+}
+#refer
+{
+  padding-top: 0px !important;
+}
+#refer .container
+{
+  padding: 0px;
+}
+#rfr label {
+    padding-left: 0px;
+}
+#refr .ln
+{
+  margin-bottom: 15px;
 }
 }
