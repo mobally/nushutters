@@ -920,6 +920,12 @@ jQuery(document).ready(function() {
 jQuery(document).ready(function(){
  window.$=jQuery;
 
+/**WHAT WE DO*****/
+var tt=$('#cid2 .wow').height();
+$('#cid1 .wow').css('min-height',tt);
+$('#cid2 .wow').css('min-height',tt);
+
+
 
  		  $('.app').css('display','none');
  $('#blog a').click(function(e){ e.preventDefault(); });

@@ -8392,8 +8392,13 @@ color: #333333;
 }
 #myft ul li
 {
-  font-size: 20px;
-  font-weight: 600;
+  #myft ul li {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
 }
 #myft a
 {
@@ -8463,12 +8468,12 @@ font-size: 18px;
 }
 .mvct h1
 {
-  font-size: 40px !important;
+  font-size: 30px !important;
       color: #000000;
       font-family: 'Montserrat',Arial, Helvetica, sans-serif !important;
       line-height: 50px !important;
       text-align: center !important;
-      font-weight: 400 !important;
+      font-weight: 600 !important;
 }
 #warr ol li
 {
@@ -8719,7 +8724,18 @@ top: 0;
     background: #ebebeb;
     padding: 115px 25px 110px 25px;
 }
-
+#alp
+{
+text-align:center;
+}
+#alp  .svrd {
+    background: #fab834;
+color: black;
+}
+#filters
+{
+display:none;
+}
 /*****************FOOTER MOBILE******************************/
 @media only screen and (max-width:480px)
 {
@@ -8747,6 +8763,7 @@ top: 0;
    {
     padding: 0 0 28px 0;
     text-align: center;
+font-size: 20px;
 }
 #myft
 {
@@ -8832,7 +8849,7 @@ footer .widget {
 }
 #tdet
 {
-  height: 415px !important;
+  height: 100% !important;
 }
 #slp .col-lg-4, .col-lg-8
 {
@@ -8894,5 +8911,17 @@ padding-bottom: 20px !important;
 #refr .ln
 {
   margin-bottom: 15px;
+}
+#slide-5-layer-2 #ctr {
+    width: 100% !important;
+    height: auto !important;
+    position: absolute;
+    top: -235px !important;
+    left: 44% !important;
+    right: 0;
+    margin: 0 auto !important;
+}
+address span {
+    font-size: 16px;
 }
 }

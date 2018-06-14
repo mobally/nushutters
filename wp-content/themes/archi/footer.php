@@ -114,8 +114,6 @@
   <address>
 
                                   <span><strong>Phone:</strong>080-26670649</span><br>
-   <span><strong>Ashish:<br>
-  </strong>(Mob) 7619429346</span><p></p>
   <p><span><strong>Shruthi:<br>
   </strong>(Mob) 9945565826</span></p>
   <p><span><strong>Email:</strong><a href="mailto:nuspacebangalore@gmail.com">nuspacebangalore@gmail.com</a></span></p>
